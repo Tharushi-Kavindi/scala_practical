@@ -1,0 +1,197 @@
+2024.08.06 17:20:01 INFO  Started: Metals version 1.3.5 in folders 'D:\Academic\Scala\Practical\Day7' for client Visual Studio Code 1.92.0.
+2024.08.06 17:20:01 INFO  time: initialize in 0.2s
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2a6a0fe6]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4b8afd97]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2a6a0fe6]
+2024.08.06 17:20:02 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 17:20:08 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, D:\Academic\Scala\Practical\Day7)
+2024.08.06 17:20:10 INFO  Attempting to connect to the build server...
+2024.08.06 17:20:10 INFO  Running BSP server List(C:\Users\DELL\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Academic\Scala\Practical\Day7\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Academic\Scala\Practical\Day7\.scala-build\ide-launcher-options.json, --envs-file, D:\Academic\Scala\Practical\Day7\.scala-build\ide-envs.json, D:\Academic\Scala\Practical\Day7)
+2024.08.06 17:20:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day7\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 17:20:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.08.06 17:20:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.pom
+2024.08.06 17:20:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.pom
+2024.08.06 17:20:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.pom
+2024.08.06 17:20:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.pom
+2024.08.06 17:20:15 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.pom
+2024.08.06 17:20:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.pom
+2024.08.06 17:20:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.pom
+2024.08.06 17:20:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.pom
+2024.08.06 17:20:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.pom
+2024.08.06 17:20:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.pom
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/implicitbox_2.12/0.2.0/implicitbox_2.12-0.2.0.jar
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.27.0/zipkin-2.27.0.jar
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.jar
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar
+2024.08.06 17:20:18 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/implicitbox_2.12/0.2.0/implicitbox_2.12-0.2.0.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/zipkin2/zipkin/2.27.0/zipkin-2.27.0.jar
+2024.08.06 17:20:20 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.4.1/sourcecode_2.12-0.4.1.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.11.15/lenses_2.12-0.11.15.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/jctools/jctools-core/2.1.2/jctools-core-2.1.2.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+30/com-microsoft-java-debug-core-0.34.0+30.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.17/zt-zip-1.17.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.0/bloop-config_2.12-2.0.0.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.5.0/fansi_2.12-0.5.0.jar
+2024.08.06 17:20:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.17/zt-zip-1.17.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.2.0/monix-tail_2.12-3.2.0.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.1.1/scala-debug-adapter_2.12-4.1.1.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-tail_2.12/3.2.0/monix-tail_2.12-3.2.0.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/scribe_2.12/3.5.5/scribe_2.12-3.5.5.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.17.2/zipkin-reporter-2.17.2.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.17-sc-2/bloop-backend_2.12-1.5.17-sc-2.jar
+2024.08.06 17:20:22 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-reporter/2.17.2/zipkin-reporter-2.17.2.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.23.0/log4j-core-2.23.0.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/scribe_2.12/3.5.5/scribe_2.12-3.5.5.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/perfolation_2.12/1.2.8/perfolation_2.12-1.2.8.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.0/log4j-api-2.23.0.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.23.0/log4j-api-2.23.0.jar
+2024.08.06 17:20:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2024.08.06 17:20:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2024.08.06 17:20:25 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.1.1/bsp4s_2.12-2.1.1.jar
+2024.08.06 17:20:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.17-sc-2/bloop-frontend_2.12-1.5.17-sc-2.jar
+2024.08.06 17:20:25 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar
+2024.08.06 17:20:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bsp4s_2.12/2.1.1/bsp4s_2.12-2.1.1.jar
+2024.08.06 17:20:25 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.2.0/monix-eval_2.12-3.2.0.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-eval_2.12/3.2.0/monix-eval_2.12-3.2.0.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.23.0/log4j-core-2.23.0.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app_2.12/2.0.6/case-app_2.12-2.0.6.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app_2.12/2.0.6/case-app_2.12-2.0.6.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_2.12/2.0.6/case-app-util_2.12-2.0.6.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.5/parsers_2.12-4.9.5.jar
+2024.08.06 17:20:26 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix_2.12/3.2.0/monix_2.12-3.2.0.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix_2.12/3.2.0/monix_2.12-3.2.0.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_2.12/2.0.6/case-app-util_2.12-2.0.6.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/directory-watcher/0.8.0+6-f651bd93/directory-watcher-0.8.0+6-f651bd93.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_2.12/2.0.6/case-app-annotations_2.12-2.0.6.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5/jsoniter-scala-core_2.12-2.13.5.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_2.12/2.0.6/case-app-annotations_2.12-2.0.6.jar
+2024.08.06 17:20:27 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.1.3/cats-effect_2.12-2.1.3.jar
+2024.08.06 17:20:29 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.15/scalapb-runtime_2.12-0.11.15.jar
+2024.08.06 17:20:29 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar
+2024.08.06 17:20:29 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar
+2024.08.06 17:20:29 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.18.1/brave-5.18.1.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/2.1.3/cats-effect_2.12-2.1.3.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2024.08.06 17:20:31 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.18.1/brave-5.18.1.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.17.2/zipkin-sender-urlconnection-2.17.2.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.17-sc-2/bloop-shared_2.12-1.5.17-sc-2.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.2.0/monix-java_2.12-3.2.0.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/reporter2/zipkin-sender-urlconnection/2.17.2/zipkin-sender-urlconnection-2.17.2.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-java_2.12/3.2.0/monix-java_2.12-3.2.0.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/outr/moduload_2.12/1.1.5/moduload_2.12-1.1.5.jar
+2024.08.06 17:20:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.jar
+2024.08.06 17:20:33 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.08.06 17:20:33 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/monix/monix-execution_2.12/3.2.0/monix-execution_2.12-3.2.0.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.9.0/pprint_2.12-0.9.0.jar
+2024.08.06 17:20:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.08.06 17:20:35 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar
+2024.08.06 17:20:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.5/common_2.12-4.9.5.jar
+2024.08.06 17:20:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.08.06 17:20:43 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.5/trees_2.12-4.9.5.jar
+2024.08.06 17:20:43 INFO  BSP server: Starting compilation server
+Aug 06, 2024 5:20:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.06 17:20:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.pom
+2024.08.06 17:20:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.pom
+2024.08.06 17:20:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.jar
+2024.08.06 17:20:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.4.2/scala3-sbt-bridge-3.4.2.jar
+2024.08.06 17:20:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar
+2024.08.06 17:20:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar
+2024.08.06 17:20:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.08.06 17:20:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.08.06 17:20:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.08.06 17:20:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.08.06 17:20:59 INFO  time: Connected to build server in 49s
+2024.08.06 17:20:59 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.06 17:21:01 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:21:06 INFO  time: Imported build in 6.86s
+2024.08.06 17:21:06 INFO  running doctor check
+2024.08.06 17:21:06 INFO  java targets: Day7_f4dd477a3a-test, Day7_f4dd477a3a
+2024.08.06 17:21:06 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:21:06 INFO  time: compiled Day7_f4dd477a3a in 0.62s
+2024.08.06 17:21:26 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 17:22:13 INFO  time: indexed workspace in 1m6s
+2024.08.06 17:22:14 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:22:15 INFO  time: compiled Day7_f4dd477a3a in 1.6s
+2024.08.06 17:22:15 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:22:15 INFO  time: compiled Day7_f4dd477a3a in 0.49s
+2024.08.06 17:22:17 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:22:17 INFO  time: compiled Day7_f4dd477a3a in 0.56s
+2024.08.06 17:22:22 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:22:22 INFO  time: compiled Day7_f4dd477a3a in 0.31s
+2024.08.06 17:22:36 INFO  compiling day7_f4dd477a3a (3 scala sources)
+2024.08.06 17:22:36 INFO  time: compiled Day7_f4dd477a3a in 0.37s
+2024.08.06 17:22:38 INFO  Shutting down server
+2024.08.06 17:22:38 INFO  shutting down Metals
+2024.08.06 17:22:38 INFO  Shut down connection with build server.
+2024.08.06 17:22:38 INFO  Exiting server
