@@ -17,9 +17,9 @@ object Caesarcipher {
   }
 
 
-  def cipher(data: String, func: (String, Int) => String, shift: Int): String = {
-    func(data, shift)
-  }
+//   def cipher(data: String, func: (String, Int) => String, shift: Int): String = {
+//     func(data, shift)
+//   }
 
   def main(args: Array[String]): Unit = {
     print("Enter: ")

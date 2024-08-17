@@ -1,0 +1,246 @@
+2024.08.17 14:39:12 INFO  Started: Metals version 1.3.5 in folders 'D:\Academic\Scala\Practical\Day9' for client Visual Studio Code 1.92.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5dcb7756]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2345962a]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5dcb7756]
+2024.08.17 14:39:13 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 14:39:18 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, D:\Academic\Scala\Practical\Day9)
+2024.08.17 14:39:21 INFO  Attempting to connect to the build server...
+2024.08.17 14:39:21 INFO  Running BSP server List(C:\Users\DELL\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Academic\Scala\Practical\Day9\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Academic\Scala\Practical\Day9\.scala-build\ide-launcher-options.json, --envs-file, D:\Academic\Scala\Practical\Day9\.scala-build\ide-envs.json, D:\Academic\Scala\Practical\Day9)
+2024.08.17 14:39:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day9\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 14:39:29 INFO  BSP server: Starting compilation server
+2024.08.17 14:39:33 INFO  no build target found for D:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 14:39:39 INFO  no build target found for D:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 14:39:48 INFO  time: Connected to build server in 27s
+2024.08.17 14:39:48 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.17 14:39:50 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 14:39:54 INFO  no build target found for D:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 17, 2024 2:39:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2024.08.17 14:39:59 INFO  time: Imported build in 11s
+2024.08.17 14:39:59 INFO  running doctor check
+2024.08.17 14:39:59 INFO  java targets: Day9_f4dd477a3a-test, Day9_f4dd477a3a
+2024.08.17 14:40:06 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 14:40:11 INFO  time: indexed workspace in 11s
+Aug 17, 2024 2:41:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.17 14:50:51 INFO  compiling day9_f4dd477a3a (1 scala source)
+Aug 17, 2024 2:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+2024.08.17 14:50:55 INFO  time: compiled Day9_f4dd477a3a in 3.76s
+2024.08.17 14:51:08 ERROR D:\Academic\Scala\Practical\Day9\Q1.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:437)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.17 14:51:11 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 14:51:11 INFO  time: compiled Day9_f4dd477a3a in 0.59s
+Aug 17, 2024 2:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+2024.08.17 14:51:23 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 14:51:24 INFO  time: compiled Day9_f4dd477a3a in 1.23s
+2024.08.17 14:53:39 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 14:53:39 INFO  time: compiled Day9_f4dd477a3a in 0.46s
+2024.08.17 14:54:11 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 14:54:11 INFO  time: compiled Day9_f4dd477a3a in 0.73s
+Aug 17, 2024 3:00:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 381
+Aug 17, 2024 3:01:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 496
+Aug 17, 2024 3:01:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 518
+Aug 17, 2024 3:01:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 533
+2024.08.17 15:01:43 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:01:45 INFO  time: compiled Day9_f4dd477a3a in 1.41s
+2024.08.17 15:02:26 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 15:02:27 INFO  no build target found for D:\Academic\Scala\Practical\Day7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:02:32 INFO  time: code lens generation in 5.08s
+2024.08.17 15:02:32 INFO  time: code lens generation in 5.07s
+2024.08.17 15:02:33 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, D:\Academic\Scala\Practical\Day7\.metals-scala-cli, --semantic-db-source-root, D:\Academic\Scala\Practical\Day7, D:\Academic\Scala\Practical\Day7\Q1.scala)
+2024.08.17 15:02:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day7\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 15:02:35 INFO  Scala CLI: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.17 15:02:35 INFO  Scala CLI: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.17 15:02:35 INFO  Scala CLI: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.17 15:02:36 INFO  Scala CLI: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.17 15:02:42 INFO  Connected to Scala CLI server v1.3.2
+2024.08.17 15:02:43 INFO  compiling _1c130bd8a5-cb7e489063 (1 scala source)
+2024.08.17 15:02:44 INFO  time: compiled _1c130bd8a5-cb7e489063 in 1.29s
+2024.08.17 15:02:46 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 15:02:49 INFO  time: indexed workspace in 6.65s
+2024.08.17 15:02:49 INFO  Scala CLI started for D:\Academic\Scala\Practical\Day7\Q1.scala
+2024.08.17 15:03:09 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, D:\Academic\Scala\Practical\Day7\.metals-scala-cli, --semantic-db-source-root, D:\Academic\Scala\Practical\Day7, D:\Academic\Scala\Practical\Day7\Q3.scala)
+2024.08.17 15:03:09 INFO  no build target found for D:\Academic\Scala\Practical\Day7\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:03:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day7\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 15:03:11 INFO  time: code lens generation in 1.39s
+2024.08.17 15:03:18 INFO  Connected to Scala CLI server v1.3.2
+2024.08.17 15:03:18 INFO  compiling _1c130bd8a5-ef3c1b1dcd (1 scala source)
+2024.08.17 15:03:18 INFO  time: compiled _1c130bd8a5-ef3c1b1dcd in 0.9s
+2024.08.17 15:03:20 INFO  no build target found for D:\Academic\Scala\Practical\Day7\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:03:20 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, D:\Academic\Scala\Practical\Day7\.metals-scala-cli, --semantic-db-source-root, D:\Academic\Scala\Practical\Day7, D:\Academic\Scala\Practical\Day7\Q2.scala)
+2024.08.17 15:03:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day7\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 15:03:22 INFO  time: indexed workspace in 4.62s
+2024.08.17 15:03:24 INFO  Scala CLI started for D:\Academic\Scala\Practical\Day7\Q3.scala
+2024.08.17 15:03:29 INFO  Connected to Scala CLI server v1.3.2
+2024.08.17 15:03:30 INFO  compiling _1c130bd8a5-1269036723 (1 scala source)
+2024.08.17 15:03:31 INFO  time: compiled _1c130bd8a5-1269036723 in 1.27s
+2024.08.17 15:03:33 INFO  time: indexed workspace in 4.39s
+2024.08.17 15:03:34 INFO  Scala CLI started for D:\Academic\Scala\Practical\Day7\Q2.scala
+2024.08.17 15:03:35 INFO  time: code lens generation in 1.28s
+2024.08.17 15:04:17 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, D:\Academic\Scala\Practical\Day4\App\.metals-scala-cli, --semantic-db-source-root, D:\Academic\Scala\Practical\Day4\App, D:\Academic\Scala\Practical\Day4\App\PatternMatching.scala)
+2024.08.17 15:04:17 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\PatternMatching.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:04:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day4\App\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 15:04:18 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\PatternMatching.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:04:19 INFO  time: code lens generation in 1.68s
+2024.08.17 15:04:25 INFO  Connected to Scala CLI server v1.3.2
+2024.08.17 15:04:26 INFO  compiling _1ec6136a14-964204c434 (1 scala source)
+2024.08.17 15:04:26 INFO  time: compiled _1ec6136a14-964204c434 in 0.74s
+2024.08.17 15:04:28 INFO  time: indexed workspace in 2.86s
+2024.08.17 15:04:28 INFO  Scala CLI started for D:\Academic\Scala\Practical\Day4\App\PatternMatching.scala
+2024.08.17 15:04:46 INFO  running doctor check
+2024.08.17 15:04:46 INFO  java targets: Day9_f4dd477a3a-test, Day9_f4dd477a3a
+2024.08.17 15:04:46 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:04:46 INFO  time: compiled Day9_f4dd477a3a in 0.84s
+2024.08.17 15:04:51 INFO  time: indexed workspace in 4.27s
+2024.08.17 15:04:51 WARN  no build target for: D:\Academic\Scala\Practical\Day4\App\PatternMatching.scala
+2024.08.17 15:05:09 INFO  running doctor check
+2024.08.17 15:05:09 INFO  java targets: Day9_f4dd477a3a-test, Day9_f4dd477a3a
+2024.08.17 15:05:09 INFO  compiling day9_f4dd477a3a (2 scala sources)
+2024.08.17 15:05:10 INFO  time: compiled Day9_f4dd477a3a in 1.18s
+2024.08.17 15:05:13 INFO  time: indexed workspace in 4.19s
+2024.08.17 15:05:13 WARN  no build target for: D:\Academic\Scala\Practical\Day4\App\PatternMatching.scala
+Aug 17, 2024 3:05:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 659
+2024.08.17 15:05:42 INFO  Shut down connection with build server.
+2024.08.17 15:05:43 INFO  Shut down connection with build server.
+2024.08.17 15:05:43 INFO  Scala CLI: Aug 17, 2024 3:05:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.08.17 15:05:45 INFO  Shut down connection with build server.
+2024.08.17 15:05:46 INFO  Shut down connection with build server.
+2024.08.17 15:05:46 INFO  Scala CLI: Aug 17, 2024 3:05:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.08.17 15:05:47 INFO  no build target found for d:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:05:47 INFO  no build target found for d:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:05:52 INFO  no build target found for d:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:00 INFO  no build target found for d:\Academic\Scala\Practical\Day9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:10 INFO  Shutting down server
+2024.08.17 15:06:10 INFO  shutting down Metals
+2024.08.17 15:06:10 INFO  Shut down connection with build server.
+2024.08.17 15:06:10 INFO  Exiting server
+2024.08.17 15:06:38 INFO  Started: Metals version 1.3.5 in folders 'D:\Academic\Scala\Practical\Day9' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6d6d651b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2d24826a]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6d6d651b]
+2024.08.17 15:06:43 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 15:06:44 INFO  Attempting to connect to the build server...
+2024.08.17 15:06:44 INFO  Running BSP server List(C:\Users\DELL\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Academic\Scala\Practical\Day9\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Academic\Scala\Practical\Day9\.scala-build\ide-launcher-options.json, --envs-file, D:\Academic\Scala\Practical\Day9\.scala-build\ide-envs.json, D:\Academic\Scala\Practical\Day9)
+2024.08.17 15:06:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day9\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 15:06:46 INFO  no build target found for D:\Academic\Scala\Practical\Day9\InterestCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:48 INFO  no build target found for D:\Academic\Scala\Practical\Day9\InterestCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 17, 2024 3:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Aug 17, 2024 3:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Aug 17, 2024 3:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Aug 17, 2024 3:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2024.08.17 15:06:48 INFO  no build target found for D:\Academic\Scala\Practical\Day9\InterestCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 17, 2024 3:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Aug 17, 2024 3:06:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Aug 17, 2024 3:06:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2024.08.17 15:06:48 INFO  no build target found for D:\Academic\Scala\Practical\Day9\InterestCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:48 INFO  no build target found for D:\Academic\Scala\Practical\Day9\InterestCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:51 INFO  no build target found for D:\Academic\Scala\Practical\Day9\InterestCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:51 INFO  no build target found for D:\Academic\Scala\Practical\Day9\PatternMatching.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:54 INFO  no build target found for D:\Academic\Scala\Practical\Day9\PatternMatching.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:06:54 INFO  time: Connected to build server in 10s
+2024.08.17 15:06:54 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.17 15:06:55 INFO  time: Imported build in 0.12s
+2024.08.17 15:06:55 INFO  running doctor check
+2024.08.17 15:06:55 INFO  java targets: Day9_f4dd477a3a-test, Day9_f4dd477a3a
+2024.08.17 15:06:59 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 15:07:01 INFO  time: indexed workspace in 6.02s
+Aug 17, 2024 3:07:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+Aug 17, 2024 3:07:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+2024.08.17 15:07:42 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:07:42 INFO  time: compiled Day9_f4dd477a3a in 0.44s
+2024.08.17 15:07:54 INFO  compiling day9_f4dd477a3a (1 scala source)
+Aug 17, 2024 3:07:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+2024.08.17 15:07:54 INFO  time: compiled Day9_f4dd477a3a in 0.29s
+2024.08.17 15:08:20 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:08:20 INFO  time: compiled Day9_f4dd477a3a in 0.32s
+2024.08.17 15:08:24 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:08:26 INFO  time: compiled Day9_f4dd477a3a in 1.83s
+2024.08.17 15:08:26 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:08:28 INFO  time: compiled Day9_f4dd477a3a in 1.39s
+2024.08.17 15:08:46 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:08:46 INFO  time: compiled Day9_f4dd477a3a in 0.23s
+Aug 17, 2024 3:08:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Academic\Scala\Practical\Day9\.metals\.reports\metals-full\2024-08-17\r_compiler-error_(Day9_f4dd477a3a)_15-08-58-078.md
+2024.08.17 15:09:04 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:09:04 INFO  time: compiled Day9_f4dd477a3a in 0.38s
+2024.08.17 15:09:11 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:09:11 INFO  time: compiled Day9_f4dd477a3a in 0.37s
+2024.08.17 15:10:00 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:10:00 INFO  time: compiled Day9_f4dd477a3a in 0.56s
+Aug 17, 2024 3:10:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.17 15:12:17 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 15:12:18 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\FormatString.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:12:17 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\FormatString.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:12:19 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\FormatString.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.17 15:12:21 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, D:\Academic\Scala\Practical\Day4\App\.metals-scala-cli, --semantic-db-source-root, D:\Academic\Scala\Practical\Day4\App, D:\Academic\Scala\Practical\Day4\App\FormatString.scala)
+2024.08.17 15:12:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day4\App\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.17 15:12:23 INFO  time: code lens generation in 4.17s
+2024.08.17 15:12:23 INFO  time: code lens generation in 4.19s
+2024.08.17 15:12:27 INFO  Connected to Scala CLI server v1.3.2
+2024.08.17 15:12:28 INFO  compiling _1ec6136a14-3a02a9b7ab (1 scala source)
+2024.08.17 15:12:28 INFO  time: compiled _1ec6136a14-3a02a9b7ab in 0.7s
+2024.08.17 15:12:29 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.17 15:12:31 INFO  time: indexed workspace in 4.09s
+2024.08.17 15:12:32 INFO  Scala CLI started for D:\Academic\Scala\Practical\Day4\App\FormatString.scala
+2024.08.17 15:12:38 INFO  running doctor check
+2024.08.17 15:12:38 INFO  java targets: Day9_f4dd477a3a-test, Day9_f4dd477a3a
+2024.08.17 15:12:38 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:12:38 INFO  time: compiled Day9_f4dd477a3a in 0.56s
+2024.08.17 15:12:40 INFO  time: code lens generation in 1.39s
+2024.08.17 15:12:43 INFO  time: indexed workspace in 4.32s
+2024.08.17 15:12:43 WARN  no build target for: D:\Academic\Scala\Practical\Day4\App\FormatString.scala
+Aug 17, 2024 3:12:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+Aug 17, 2024 3:12:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 408
+2024.08.17 15:16:08 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:16:10 INFO  time: compiled Day9_f4dd477a3a in 1.4s
+2024.08.17 15:16:37 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 15:16:37 INFO  time: compiled Day9_f4dd477a3a in 0.57s
+2024.08.17 17:49:43 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.17 17:49:44 INFO  time: compiled Day9_f4dd477a3a in 1.07s
