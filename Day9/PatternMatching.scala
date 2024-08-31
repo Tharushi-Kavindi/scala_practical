@@ -1,6 +1,6 @@
 object PatternMatching {
   def main(args: Array[String]): Unit = {
-    println("Enter the integer Number:")
+    print("Enter the integer Number:")
 
     try {
       val input: Int = scala.io.StdIn.readInt()

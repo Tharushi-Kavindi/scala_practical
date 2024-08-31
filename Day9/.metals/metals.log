@@ -244,3 +244,85 @@ WARNING: Unmatched cancel notification for request id 408
 2024.08.17 15:16:37 INFO  time: compiled Day9_f4dd477a3a in 0.57s
 2024.08.17 17:49:43 INFO  compiling day9_f4dd477a3a (1 scala source)
 2024.08.17 17:49:44 INFO  time: compiled Day9_f4dd477a3a in 1.07s
+2024.08.18 09:46:10 INFO  Started: Metals version 1.3.5 in folders 'D:\Academic\Scala\Practical\Day9' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3925e92a]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3927bd62]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3925e92a]
+2024.08.18 09:46:14 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.18 09:46:16 INFO  Attempting to connect to the build server...
+2024.08.18 09:46:16 INFO  Running BSP server List(C:\Users\DELL\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Academic\Scala\Practical\Day9\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Academic\Scala\Practical\Day9\.scala-build\ide-launcher-options.json, --envs-file, D:\Academic\Scala\Practical\Day9\.scala-build\ide-envs.json, D:\Academic\Scala\Practical\Day9)
+2024.08.18 09:46:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day9\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.18 09:46:22 INFO  BSP server: Starting compilation server
+2024.08.18 09:46:32 INFO  time: Connected to build server in 15s
+2024.08.18 09:46:32 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.18 09:46:32 INFO  time: Imported build in 0.23s
+2024.08.18 09:46:32 INFO  running doctor check
+2024.08.18 09:46:32 INFO  java targets: Day9_f4dd477a3a-test, Day9_f4dd477a3a
+2024.08.18 09:46:41 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.18 09:46:42 INFO  time: indexed workspace in 9.89s
+2024.08.18 09:46:51 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.18 09:46:52 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\FormatString.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.18 09:46:54 INFO  no build target found for D:\Academic\Scala\Practical\Day4\App\FormatString.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.18 09:46:56 INFO  Running List(C:\Users\DELL\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, D:\Academic\Scala\Practical\Day4\App\.metals-scala-cli, --semantic-db-source-root, D:\Academic\Scala\Practical\Day4\App, D:\Academic\Scala\Practical\Day4\App\FormatString.scala)
+2024.08.18 09:46:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Academic\Scala\Practical\Day4\App\.metals\bsp.trace.json or C:\Users\DELL\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.18 09:47:06 INFO  Connected to Scala CLI server v1.3.2
+2024.08.18 09:47:06 INFO  Shut down connection with build server.
+2024.08.18 09:47:06 INFO  Java targets not supported by server
+2024.08.18 09:47:06 INFO  Scala CLI: Aug 18, 2024 9:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+2024.08.18 09:47:06 INFO  Failed to run request with params SourcesResult
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.18 09:47:06 ERROR Error starting Scala CLI
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: SourcesResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:548)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:548)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:523)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Aug 18, 2024 9:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Aug 18, 2024 9:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Aug 18, 2024 9:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Aug 18, 2024 9:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Aug 18, 2024 9:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Aug 18, 2024 9:47:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Aug 18, 2024 9:49:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+2024.08.18 09:49:38 INFO  compiling day9_f4dd477a3a (1 scala source)
+2024.08.18 09:49:45 INFO  time: compiled Day9_f4dd477a3a in 6.93s
+2024.08.18 10:06:06 INFO  Shutting down server
+2024.08.18 10:06:06 INFO  shutting down Metals
+2024.08.18 10:06:06 INFO  Shut down connection with build server.
+2024.08.18 10:06:06 INFO  Exiting server
